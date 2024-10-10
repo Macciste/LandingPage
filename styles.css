@@ -1,5 +1,16 @@
 body {
     font-family: 'Roboto', 'Courier New', Courier, monospace ;
+    margin: auto;
+    
+}
+
+.section-one {
+    background-color: #1F2937;
+    color: wheat;
+    display: inline-block; /* Prevents flex behavior */
+    width: 100%; /* Full width */
+    text-align: center; /* Optional: center text */
+    padding-bottom: 100px;
 }
 
 .header {
@@ -17,4 +28,14 @@ body {
 .logo {
     font-size: larger;
     font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero .content {
+    width: 512px;
 }
